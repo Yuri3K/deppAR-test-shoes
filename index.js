@@ -29,7 +29,7 @@ console.log("Deepar version: " + deepar.version);
     additionalOptions: {
       // Use the front camera.
       cameraConfig: {
-        facingMode: "environment",
+       // facingMode: "environment",
       },
       hint: "footInit", // Add this hint to let DeepAR know we want to optimize for shoe-try-on use-case.
     }
